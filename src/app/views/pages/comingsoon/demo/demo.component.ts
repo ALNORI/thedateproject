@@ -12,7 +12,7 @@ export class DemoComponent implements OnInit {
   demos = [
     {
       name: 'Version 2',
-      thumbnail: '../../../../../assets/images/demo/bluepart.PNG',
+      thumbnail: '../../../../../assets/images/demo/dadlar1.jpg',
       link: '/pages/comingsoon/version2',
       badge: 'Pro'
     }
