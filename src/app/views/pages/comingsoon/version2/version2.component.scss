@@ -1,0 +1,75 @@
+.comming_top_wrap {
+  color: #fff;
+  position: relative;
+  background: #3a3c48;
+  min-height: 100vh;
+}
+.comming_top_content {
+ 
+  padding: 100px 100px 0px 100px;
+ 
+}
+
+.comming_soon_form mat-card {
+  margin-top: 20px;
+  background: transparent;
+}
+
+.left_side {
+  background: url('../../../../../assets/images/bg/partition/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+
+mat-card {
+  border-radius: 0px;
+}
+input.form-control {
+  font-size: 15px;
+  padding-left: 15px;
+  height: 34px;
+  border-radius: 10px;
+  background: darken(#3a3c48, 5%);
+ 
+  border: 0;
+  color: #fff;
+}
+footer.t-mb-2 {
+  align-self: center;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+button.subscribe-btn.mat-raised-button {
+  background: lighten(#3a3c48, 5%) !important;
+  color: #fff !important;
+}
+button.subscribe-btn.mat-raised-button[disabled] {
+  color: #fff !important;
+  font-weight: normal !important;
+  background: darken(#3a3c48, 8%) !important;
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .comming_top_content {
+      padding: 100px 30px 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .comming_top_content {
+      padding: 0px 10px 0px 10px;
+      height: 100%;
+  }
+  .comming_top_wrap{
+      max-height: auto !important;
+  }
+  .comming_soon_form mat-card {
+    margin-top: 20px;
+    background: 0 0;
+    margin-bottom: 30px;
+}
+}
