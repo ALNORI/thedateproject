@@ -13,7 +13,7 @@ import { Counter } from '../counter.service';
   animations: [SharedAnimations]
 })
 export class Version2Component implements OnInit {
-  eventDate="nov 02 ,2019 12:00:00";
+  eventDate="apr 02 ,2021 12:00:00";
   message:string;
   result:string;
   constructor(public timeCounter: Counter,private mailChimp:MailChimpService) { }
