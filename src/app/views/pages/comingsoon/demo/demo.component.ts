@@ -15,7 +15,7 @@ export class DemoComponent implements OnInit {
       thumbnail: '../../../../../assets/images/demo/bluemain.PNG',
       link: '/pages/comingsoon/version1',
       badge: 'Free'
-    },
+    }/*,
     {
       name: 'Version 2',
       thumbnail: '../../../../../assets/images/demo/bluepart.PNG',
@@ -45,7 +45,7 @@ export class DemoComponent implements OnInit {
       thumbnail: '../../../../../assets/images/demo/purplepart.PNG',
       link: '/pages/comingsoon/version6',
       badge: 'Pro'
-    }
+    }*/
   ]
 
   constructor() { }
