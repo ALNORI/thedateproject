@@ -11,7 +11,7 @@ export class DemoComponent implements OnInit {
 
   demos = [
     {
-      name: 'Version 1',
+      name: 'Version 2',
       thumbnail: '../../../../../assets/images/demo/bluemain.PNG',
       link: '/pages/comingsoon/version1',
       badge: 'Free'
